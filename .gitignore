@@ -436,3 +436,10 @@ docker-compose.override.yml
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+venv/
+.env
+*.db
+*.db-*
+dump.rdb
+node_modules/
