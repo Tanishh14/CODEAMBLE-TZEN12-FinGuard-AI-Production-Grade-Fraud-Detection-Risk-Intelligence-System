@@ -4,7 +4,6 @@ sys.path.append(os.path.join(os.getcwd(), 'backend'))
 
 from app.db.session import SessionLocal
 from app.db.models import Transaction
-
 def check_txs():
     db = SessionLocal()
     try:
