@@ -125,7 +125,6 @@ def init_models():
     clf.fit(X_train)
     joblib.dump(clf, os.path.join(models_dir, "isolation_forest.pkl"))
     print(f"OK Saved Isolation Forest to {os.path.join(models_dir, 'isolation_forest.pkl')}")
-
     # 3. GNN Weights
     print("Initializing GNN weights...")
     gnn = FraudGNN(in_dim=8)
