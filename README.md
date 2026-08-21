@@ -120,13 +120,6 @@ Immutable Audit Log (Postgres)  ──  replayable by Case ID
 
 Full setup instructions are in [`STARTUP_GUIDE.md`](./STARTUP_GUIDE.md).
 
-```bash
-git clone https://github.com/Tanishh14/finguard-ai.git
-cd finguard-ai
-docker-compose up --build
-```
-
----
 
 ## How a Transaction Flows Through the System
 
